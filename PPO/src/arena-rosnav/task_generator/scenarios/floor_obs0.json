@@ -1,0 +1,21 @@
+{
+    "pedsim_agents": [],
+    "static_obstacles": [],
+    "map":"floor",
+    
+    "robots": [
+         {"start":[-7.0,-4.28,-0.99],"goal":[17.64,12.78,-0.73]}
+         ]
+    ,
+    "robot_position" : [
+        -7.0,
+        -4.28
+    ],
+    
+    "robot_goal_pose": [
+        17.64,
+        12.78
+    ],
+    "map_path": "/home/ducanor/arena_ws/src/arena-rosnav/simulator_setup/maps/floor/map.yaml",
+    "format": "arena-tools"
+}

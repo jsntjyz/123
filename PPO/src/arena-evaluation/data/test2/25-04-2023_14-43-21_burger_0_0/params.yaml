@@ -1,0 +1,6 @@
+agent_name: burger
+local_planner: rosnav
+map_file: stage4
+model: burger
+namespace: burger_0_0
+scenario_file: stage4_static.json

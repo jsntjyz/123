@@ -1,0 +1,6 @@
+<launch>
+    <arg name="show_rviz" default="true" doc="Wether to show rviz or not" />
+
+
+    <node type="rviz" pkg="rviz" name="rviz" if="$(arg show_rviz)" />
+</launch>

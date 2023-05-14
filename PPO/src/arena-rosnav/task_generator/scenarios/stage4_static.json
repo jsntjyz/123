@@ -1,0 +1,14 @@
+{
+    "pedsim_agents": [],
+    "static_obstacles": [],
+    "map":"stage4",
+    
+    "robots": [
+         {"start":[13.41,-7.09,-1.57],"goal":[-3.10,11.95,-2]}
+         ]
+    ,
+    
+    "map_path": "/home/lenovo/catkin_ws_arenarosnav/src/utils/arena-simulation-setup/maps/stage4/map.yaml",
+    "format": "arena-tools"
+}
+

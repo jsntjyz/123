@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lenovo/catkin_ws_arenarosnav/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/flatland/arena_plugins/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/cob4/cob_base_controller_utils/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/cob4/cob_gazebo_ros_control/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/cob4/cob_omni_drive_controller/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/cob4/cob_scan_unifier/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/cob4/cob_twist_controller/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/flatland/flatland_plugins/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/flatland/flatland_server/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/flatland/flatland_viz/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/navigation/msgs/ford/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/intermediate_planner/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/mapping/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/planners/mpc/mpc_local_planner/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/path_search/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/pedsim_ros/3rdparty/libpedsim/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/pedsim_ros/pedsim_sensors/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/pedsim_ros/pedsim_simulator/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/pedsim_ros/pedsim_utils/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/pedsim_ros/pedsim_visualizer/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/plan_manager/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/plan_visualization/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/ridgeback/ridgeback_control/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/utils/3rd-party-robot-packages/ridgeback/ridgeback_gazebo_plugins/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/spacial_horizon/include/**",
+        "/home/lenovo/catkin_ws_arenarosnav/src/arena-rosnav/utils/traj_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,45 @@
+agent_name: burger_AGENT_25_RobotSpecificEncoder_2023_04_14__15_57_33
+callbacks:
+  periodic_eval:
+    eval_freq: 15000
+    max_num_moves_per_eps: 350
+    n_eval_episodes: 100
+  stop_training:
+    threshold: 0.9
+    threshold_type: succ
+  training_curriculum:
+    curr_stage: 1
+    lower_threshold: 0.6
+    threshold_type: succ
+    training_curriculum_file: map1small.yaml
+    upper_threshold: 0.8
+debug_mode: false
+goal_radius: 0.3
+max_num_moves_per_eps: 250
+monitoring:
+  eval_log: false
+  use_wandb: false
+n_envs: 1
+n_timesteps: 40000000
+no_gpu: false
+rl_agent:
+  architecture_name: AGENT_25
+  discrete_action_space: false
+  normalize: false
+  ppo:
+    batch_size: 9600
+    clip_range: 0.22
+    ent_coef: 0.005
+    gae_lambda: 0.95
+    gamma: 0.99
+    learning_rate: 0.0003
+    m_batch_size: 20
+    max_grad_norm: 0.5
+    n_epochs: 3
+    n_steps: 9600
+    vf_coef: 0.22
+  resume: null
+  reward_fnc: rule_05
+  space_encoder: RobotSpecificEncoder
+robot: burger
+task_mode: staged
